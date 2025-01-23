@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 
 
 const DashboardLayout = () => {
-
+  //Protecting Routes
   const {userId, isLoaded} = useAuth()
 
   const navigate = useNavigate()
